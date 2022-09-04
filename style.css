@@ -24,6 +24,11 @@ img {
     padding: 30px;
 }
 
+.profile-descripsion {
+    text-align: end;
+    padding: 30px;
+}
+
 .links {
     text-align: center;
     margin-top: 20px;
