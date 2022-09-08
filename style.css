@@ -10,6 +10,22 @@ img {
     border-radius: 50%;
 }
 
+@keyframes blink{
+    50% {
+        opacity: 0;
+    }
+}
+
+h1 {
+    text-align: center;
+    padding: 21px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    animation: blink 1s linear
+    infinite;
+}
+
 .profile-picture {
     display: block;
     margin-left: auto;
